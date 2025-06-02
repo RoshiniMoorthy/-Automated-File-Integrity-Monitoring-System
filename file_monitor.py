@@ -9,8 +9,7 @@ from email.mime.multipart import MIMEMultipart
 
 # ✅ Updated file paths
 FILES_TO_MONITOR = [
-    "C:/Users/ASUS/OneDrive/Desktop/test1.txt",
-    "C:/Users/ASUS/OneDrive/Desktop/test2.txt"
+    #path of the files which are need to be monitored ex:test1.txt,test2.txt
 ]
 
 HASHES_FILE = "file_hashes.json"
@@ -19,9 +18,9 @@ MONITOR_INTERVAL = 120  # 2 min
 
 # ✅ Updated email config
 EMAIL_CONFIG = {
-    "from_email": "roseroshini2805@gmail.com",
+    "from_email": "example@gmail.com",
     "password": "xfak bfnf doem rbif",  # App password
-    "to_email": "roseroshini2805@gmail.com",
+    "to_email": "example@gmail.com",
     "smtp_server": "smtp.gmail.com",
     "smtp_port": 587
 }
